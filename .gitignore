@@ -1,0 +1,7 @@
+*.pyc
+*.log
+.idea/
+*.html
+*.png
+*.ini
+*.csv
