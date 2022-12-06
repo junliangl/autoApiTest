@@ -1,0 +1,4 @@
+first_case:
+  SELECT * FROM *
+second_case:
+  INSERT TABLE * * VALUES *

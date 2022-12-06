@@ -10,8 +10,6 @@ root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(root_path)
 
 
-from framework.logger import Logger
-logger = Logger(logger="用例失败成功情况").get_log()
 from Python_HTMLTestReportCN import HTMLTestReportCN
 
 report_path = os.path.join(root_path, 'test_report')
@@ -32,4 +30,3 @@ if __name__ == '__main__':
             tester='junliangl',
         )
         runner.run(suites)
-
